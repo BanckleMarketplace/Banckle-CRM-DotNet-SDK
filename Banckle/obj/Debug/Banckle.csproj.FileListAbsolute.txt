@@ -1,0 +1,5 @@
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Debug\ResolveAssemblyReference.cache
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Debug\Banckle.dll
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Debug\Banckle.pdb
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Debug\Banckle.dll
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Debug\Banckle.pdb
