@@ -9,11 +9,24 @@ using System.Text;
 
 namespace Banckle
 {
+	/// <summary>
+	/// Banckle CRM Main Class
+	/// </summary>
 	public class BanckleCRM
 	{
-		protected String banckleCRMAPIUrl = "https://crm-api.banckle.com/api/";
+		/// <summary>
+		/// Banckle CRM API URL
+		/// </summary>
+		/// 
+		protected String banckleCRMAPIUrl = "https://crm-api.banckle.com/v1.0/";
+		/// <summary>
+		/// BanckleCRM API Key
+		/// </summary>
 		protected string banckleCRMAPIKey = "";
 
+		/// <summary>
+		/// BanckleCRM constructor
+		/// </summary>
 		public BanckleCRM()
 		{
 			//
@@ -21,12 +34,11 @@ namespace Banckle
 			//
 		}
 		/// <summary>
-		/// 
+		/// Banckle Get Request.
 		/// </summary>
-		/// <param name="URL"></param>
-		/// <param name="APIKey"></param>
-		/// <param name="method"></param>
-		/// <returns></returns>
+		/// <param name="URL">API call URL</param>
+		/// <param name="APIKey">API Key for the URL</param>
+		/// <returns>Returns a String containing the JSON response</returns>
 		public string banckleRequest(string URL, string APIKey)
 		{
 			string responseFromServer;
@@ -34,7 +46,7 @@ namespace Banckle
 			try
 			{
 				// Create a request for the URL. 		
-				// https://crm-api.banckle.com/api/contacts?api_key=
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
 				WebRequest request = WebRequest.Create(URL+"&api_key="+ HttpUtility.UrlEncode(APIKey));
 				// If required by the server, set the credentials.
 				request.Credentials = CredentialCache.DefaultCredentials;
@@ -60,13 +72,19 @@ namespace Banckle
 			}
 			catch (Exception ex)
 			{
-				return ex.Message;
+				return ex.Message + "\r" + ex.StackTrace;
 			}
 			return responseFromServer;
 
 		}
 
-
+		/// <summary>
+		/// Banckle Post Request
+		/// </summary>
+		/// <param name="URL">API call URL</param>
+		/// <param name="APIKey">API Key for the URL</param>
+		/// <param name="DATA">A JSON formated string</param>
+		/// <returns>Returns a String containing the JSON response</returns>
 		public string bancklePOSTRequest(string URL, string APIKey, string DATA)
 		{
 
@@ -75,13 +93,15 @@ namespace Banckle
 			try
 			{
 				// Create a request for the URL. 		
-				// https://crm-api.banckle.com/api/contacts?api_key=
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
 				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
 
 				request.Method = "POST";
 				request.ContentType = "application/json";
+				// Create a byte array of the data we want to send  
+				byte[] byteData = UTF8Encoding.UTF8.GetBytes(DATA);  
 				request.ContentLength = DATA.Length;
-				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream(), System.Text.Encoding.ASCII);
+				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream());
 				requestWriter.Write(DATA);
 				requestWriter.Close();
 
@@ -110,11 +130,18 @@ namespace Banckle
 			}
 			catch (Exception ex)
 			{
-				return ex.Message;
+				return ex.Message + "\r" + ex.StackTrace;
 			}
 			return responseFromServer;
 		}
 
+		/// <summary>
+		/// Banckle Put Request Method
+		/// </summary>
+		/// <param name="URL">API call URL</param>
+		/// <param name="APIKey">API Key for the URL</param>
+		/// <param name="DATA">A JSON formated string</param>
+		/// <returns>Returns a String containing the JSON response</returns>
 		public string bancklePUTRequest(string URL, string APIKey, string DATA)
 		{
 
@@ -123,13 +150,15 @@ namespace Banckle
 			try
 			{
 				// Create a request for the URL. 		
-				// https://crm-api.banckle.com/api/contacts?api_key=
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
 				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
 
 				request.Method = "PUT";
 				request.ContentType = "application/json";
+				// Create a byte array of the data we want to send  
+				byte[] byteData = UTF8Encoding.UTF8.GetBytes(DATA);  
 				request.ContentLength = DATA.Length;
-				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream(), System.Text.Encoding.ASCII);
+				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream());
 				requestWriter.Write(DATA);
 				requestWriter.Close();
 
@@ -158,11 +187,17 @@ namespace Banckle
 			}
 			catch (Exception ex)
 			{
-				return ex.Message;
+				return ex.Message + "\r" + ex.StackTrace;
 			}
 			return responseFromServer;
 		}
 
+		/// <summary>
+		/// Banckle Delete Request
+		/// </summary>
+		/// <param name="URL">API call URL</param>
+		/// <param name="APIKey">API Key for the URL</param>
+		/// <returns>Returns a String containing the JSON response</returns>
 		public string banckleDELETERequest(string URL, string APIKey)
 		{
 
@@ -171,7 +206,7 @@ namespace Banckle
 			try
 			{
 				// Create a request for the URL. 		
-				// https://crm-api.banckle.com/api/contacts?api_key=
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
 				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
 
 				request.Method = "DELETE";
@@ -200,7 +235,7 @@ namespace Banckle
 			}
 			catch (Exception ex)
 			{
-				return ex.Message;
+				return ex.Message + "\r" + ex.StackTrace;
 			}
 			return responseFromServer;
 		}

@@ -10,7 +10,13 @@ namespace Banckle
 	/// </summary>
 	public class ContactsError : BanckleCRM
 	{
+		/// <summary>
+		/// 
+		/// </summary>
 		public string message { get; set; }
+		/// <summary>
+		/// 
+		/// </summary>
 		public string errorCode { get; set; }
 	}
 }

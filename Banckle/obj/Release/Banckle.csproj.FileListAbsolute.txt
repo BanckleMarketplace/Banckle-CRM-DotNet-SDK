@@ -1,0 +1,7 @@
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.dll
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.pdb
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.tlb
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Release\ResolveAssemblyReference.cache
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Release\Banckle.dll
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\obj\Release\Banckle.pdb
+E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.XML

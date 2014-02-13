@@ -1,34 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
 
 namespace Banckle
 {
 	/// <summary>
 	/// 
 	/// </summary>
-	public class ResponseStatus : BanckleCRM
+	public class ResponseError
 	{
 		//ErrorCode (string, optional),
 		/// <summary>
 		/// 
 		/// </summary>
 		string ErrorCode { get; set; }
-		//Message (string, optional),
+		//FieldName (string, optional),
 		/// <summary>
 		/// 
 		/// </summary>
-		string Messgae { get; set; }
-		//StackTrace (string, optional),
+		string FieldName { get; set; }
+		//Message (string, optional)
 		/// <summary>
 		/// 
 		/// </summary>
-		string StackTrace { get; set; }
-		//Errors (Array[ResponseError], optional)
-		/// <summary>
-		/// 
-		/// </summary>
-		ResponseError[] responseError;
+		string Message { get; set; }
 	}
 }
