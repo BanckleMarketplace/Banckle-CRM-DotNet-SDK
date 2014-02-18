@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="be8e687c-25d0-4644-8007-12c45a900c12" Title="Banckle Namespace" Url="html/d9f4b78e-5abf-2bb4-b50d-6bd93075c146.htm">
+    <HelpTOCNode Id="0f42738e-9365-4e2f-8c16-25c1e6267a58" Title="Address Class" Url="html/1c0284f1-4f66-86eb-41fa-3458f4457284.htm">
+      <HelpTOCNode Title="Address Members" Url="html/99cfc87c-1d0b-43a2-4cd1-4f7dbc771cba.htm" />
+      <HelpTOCNode Id="678041f3-824a-411c-97c0-42d76487cfdb" Title="Address Constructor " Url="html/d31a7270-7858-8f4f-4449-095eae9e6e24.htm">
+        <HelpTOCNode Title="Address Constructor " Url="html/dde817e7-5c0b-6a10-d355-b5f57152012b.htm" />
+        <HelpTOCNode Title="Address Constructor (String, String, String, String, String, String, String)" Url="html/83917fc0-4485-39fb-8e38-a95695b744d6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Address Fields" Url="html/baaf5d88-a7cf-c20c-7954-043659dd0a47.htm" />
+      <HelpTOCNode Title="Address Methods" Url="html/98cadf63-08dc-97d2-c192-ddec05b2a431.htm" />
+      <HelpTOCNode Id="5159e149-c765-45bb-9b01-160eb113060b" Title="Address Properties" Url="html/7fc67f44-fa66-ce53-9f4a-8f3e1c1bdcb9.htm">
+        <HelpTOCNode Title="building Property " Url="html/cc8ed45f-37aa-35a5-ef6d-be1659f8c5fe.htm" />
+        <HelpTOCNode Title="city Property " Url="html/81701ba5-86e9-a7c8-2abd-02adce2d2665.htm" />
+        <HelpTOCNode Title="country Property " Url="html/d3f7750a-ec2e-daf3-c714-e8399c97a09b.htm" />
+        <HelpTOCNode Title="created Property " Url="html/1d3f1cf9-7167-7796-2b52-8f1219f8cb42.htm" />
+        <HelpTOCNode Title="id Property " Url="html/2817daed-8b2d-b419-6d48-52b5bd461c36.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/8c790a4f-3109-e283-8d84-23a7571bd333.htm" />
+        <HelpTOCNode Title="state Property " Url="html/98c47a34-a24f-0dd1-9937-5dadd62e9e12.htm" />
+        <HelpTOCNode Title="street Property " Url="html/54b1b000-f3b8-5103-04e2-75e3d1c49e4e.htm" />
+        <HelpTOCNode Title="type Property " Url="html/680ec092-5161-448f-faf4-2b85e1c442ff.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/55ed02cf-5856-639d-b117-a1e0ef9ed14f.htm" />
+        <HelpTOCNode Title="zip Property " Url="html/a6a1ac42-18f1-78c1-beda-8fe5555b6d06.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ad3d9d9-bd72-4ba4-b5b6-812acff10c3e" Title="AssociatedFile Class" Url="html/e34f2698-af2d-5705-42c7-6e7aa8536899.htm">
+      <HelpTOCNode Title="AssociatedFile Members" Url="html/09c950e3-f936-fae9-6e32-2bf5ce36739d.htm" />
+      <HelpTOCNode Title="AssociatedFile Constructor " Url="html/face742a-0968-3155-b09f-035acceae20d.htm" />
+      <HelpTOCNode Title="AssociatedFile Fields" Url="html/1835462d-6b4f-b9d0-e634-4110fada2b24.htm" />
+      <HelpTOCNode Title="AssociatedFile Methods" Url="html/0ad709e2-8bdf-185c-5afa-852fbad77a7b.htm" />
+      <HelpTOCNode Id="1a620066-c653-4168-b008-eb6fe5f59d9a" Title="AssociatedFile Properties" Url="html/e8650d89-eda9-5268-7174-bfd386806825.htm">
+        <HelpTOCNode Title="created Property " Url="html/ecbcba1c-ad76-2921-f665-434a6268cbfe.htm" />
+        <HelpTOCNode Title="id Property " Url="html/34c3576a-5839-0d0f-ae35-e3149a37e762.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/8dbbcfd4-569f-d64f-9a17-73d269b645ea.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="312bc06f-eceb-42c2-bb8f-091962b7ea43" Title="Auth Class" Url="html/f9179a32-68bd-2817-4bb5-a9050b7dcafe.htm">
+      <HelpTOCNode Title="Auth Members" Url="html/cc4d92b1-867a-d3ee-db92-622eff969c4b.htm" />
+      <HelpTOCNode Title="Auth Constructor " Url="html/9b75b344-c406-4016-3f13-ad460e61333c.htm" />
+      <HelpTOCNode Id="18a723d4-dfac-470f-aa3c-2c2c04f43e20" Title="Auth Fields" Url="html/e060d2f2-63d9-6954-7f84-79cf3904e5b5.htm">
+        <HelpTOCNode Title="APIKey Field" Url="html/3be03e5c-cf6b-9c63-9415-c2bcd3346bea.htm" />
+        <HelpTOCNode Title="json Field" Url="html/9668d8e4-0d2b-e4d1-9c30-6f6e3313c452.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cdd714c0-a82e-4b80-a80b-0e8e6d3e2ba0" Title="Auth Methods" Url="html/3cd63a64-c945-ad26-3384-4255d453a89a.htm">
+        <HelpTOCNode Title="authenticate Method " Url="html/23a66496-4468-4577-1684-8154fec70d91.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f599ba92-8c0a-4c56-b2d0-77ece4230aee" Title="AuthDetails Class" Url="html/2d8e5553-01d7-7191-a92e-742183225506.htm">
+      <HelpTOCNode Title="AuthDetails Members" Url="html/35fc9ff0-c1eb-0515-0298-4373b490d1a2.htm" />
+      <HelpTOCNode Title="AuthDetails Constructor " Url="html/bc511179-275b-37ce-a465-3de938962de3.htm" />
+      <HelpTOCNode Title="AuthDetails Fields" Url="html/a5e20fed-e4e2-0a12-7fb3-e17048e1bd73.htm" />
+      <HelpTOCNode Title="AuthDetails Methods" Url="html/2dac3ca7-8e9c-1397-66d2-5fd73dc6bfa5.htm" />
+      <HelpTOCNode Id="17f5cd52-4efe-4ab9-bdda-b1f098ff45c2" Title="AuthDetails Properties" Url="html/a3d49b34-9eb0-3304-cc09-3507e52c8e81.htm">
+        <HelpTOCNode Title="cnonce Property " Url="html/da749b9c-54a5-40cb-bf6a-27f3d2e91423.htm" />
+        <HelpTOCNode Title="Continue Property " Url="html/78b756ac-b967-0f04-10eb-277fe65affde.htm" />
+        <HelpTOCNode Title="nc Property " Url="html/a72ead67-ce6f-f223-cc57-feea68fc1941.htm" />
+        <HelpTOCNode Title="nonce Property " Url="html/f623d2d2-e8b5-dfc9-41d3-951274407074.htm" />
+        <HelpTOCNode Title="oauth_token Property " Url="html/e2277847-ddd4-ae4e-fefb-53bb1dcf059d.htm" />
+        <HelpTOCNode Title="oauth_verifier Property " Url="html/ffb2ed7b-6dba-e008-0cec-317f3c38063c.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/2dca7537-129e-6130-c86d-8be4b6f82b85.htm" />
+        <HelpTOCNode Title="provider Property " Url="html/fd2bcf9c-1175-9563-7df1-d82d149694cd.htm" />
+        <HelpTOCNode Title="qop Property " Url="html/5ccbc6bf-ab36-f230-de31-228d57b079f8.htm" />
+        <HelpTOCNode Title="RememberMe Property " Url="html/ce6bd782-d022-c63b-6978-9e00e26ec88b.htm" />
+        <HelpTOCNode Title="response Property " Url="html/da734bde-c958-2c2a-35f4-030b5dccd4fc.htm" />
+        <HelpTOCNode Title="State Property " Url="html/aa4ac821-0a86-f18d-5009-6cf662b177b4.htm" />
+        <HelpTOCNode Title="uri Property " Url="html/0d3c3ca6-17a0-9acd-a0ec-7eb69f9f0af0.htm" />
+        <HelpTOCNode Title="UserName Property " Url="html/22156a20-5532-f88d-8379-52bf107b7d06.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8631f204-cea8-4a8c-b6ec-88a8116558f9" Title="AuthResponse Class" Url="html/05bf15f6-b9a7-3f86-c99e-c89f659c1f73.htm">
+      <HelpTOCNode Title="AuthResponse Members" Url="html/66e586ea-1b8d-6aec-a91a-7c69ba96bdad.htm" />
+      <HelpTOCNode Title="AuthResponse Constructor " Url="html/0c310810-9364-33c3-e8f2-c442cffeff20.htm" />
+      <HelpTOCNode Title="AuthResponse Methods" Url="html/97bebc8c-7805-8932-5da0-137a9512781f.htm" />
+      <HelpTOCNode Id="6f7ddb84-ac56-4aac-b244-77cee08dbd10" Title="AuthResponse Properties" Url="html/1c34a848-860d-1dcb-0ddf-48b51daf4457.htm">
+        <HelpTOCNode Title="referrerUrl Property " Url="html/aaffd403-5a59-c64e-5cbe-f9965cbd258c.htm" />
+        <HelpTOCNode Title="responseStatus Property " Url="html/b47eff87-61fe-c72e-cd24-09184349b987.htm" />
+        <HelpTOCNode Title="sessionId Property " Url="html/4d92c31c-1523-bc70-1a61-3e98696bac25.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="46a991c5-d98c-40c3-8180-3473cdff45c6" Title="BanckleCRM Class" Url="html/1e3f0450-b937-0660-1001-ce3cea6eefbd.htm">
+      <HelpTOCNode Title="BanckleCRM Members" Url="html/a3cc3335-e1a7-2386-515d-41f915d23372.htm" />
+      <HelpTOCNode Title="BanckleCRM Constructor " Url="html/5c25c32d-b6d0-9cee-84ca-621f5a02bf7d.htm" />
+      <HelpTOCNode Id="a08e740d-9bea-4f7b-bc74-c6210093078a" Title="BanckleCRM Fields" Url="html/825692af-d493-bc19-51dd-6bd70c0b8211.htm">
+        <HelpTOCNode Title="banckleCRMAPIKey Field" Url="html/986edb31-d32d-99ae-0966-3e7eaeab73c4.htm" />
+        <HelpTOCNode Title="banckleCRMAPIUrl Field" Url="html/63f2360a-3f4b-2a78-00e8-882c16d38b3e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f2e7c88-a447-4df8-87a8-f0fd8a5e4eee" Title="BanckleCRM Methods" Url="html/a906c457-436e-e88d-c63e-3d8b29cd1b0f.htm">
+        <HelpTOCNode Title="banckleDELETERequest Method " Url="html/f58a9861-659d-fc10-3c7f-f46858d33a45.htm" />
+        <HelpTOCNode Title="bancklePOSTRequest Method " Url="html/bd5fee35-1f5f-3513-3b69-a8c49feae250.htm" />
+        <HelpTOCNode Title="bancklePUTRequest Method " Url="html/b4e88769-c684-c918-383c-8053550ef181.htm" />
+        <HelpTOCNode Title="banckleRequest Method " Url="html/e6a1839d-8da9-df20-0de2-dc05f39c3076.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="82a8152f-b1cf-43bb-b1f1-e8c3453ca4bf" Title="Colleague Class" Url="html/12e24a2a-c78b-bf75-efc7-6fca706ff9bd.htm">
+      <HelpTOCNode Title="Colleague Members" Url="html/a803dc92-27ca-6963-8dac-2c817292da2a.htm" />
+      <HelpTOCNode Id="682b044a-e630-4da4-9268-e0c72f370c1c" Title="Colleague Constructor " Url="html/e9c04aee-cb7e-e448-341d-9ca7b7773a3e.htm">
+        <HelpTOCNode Title="Colleague Constructor " Url="html/ca9fe471-2cdc-6469-e8b7-5ebae7f20cd7.htm" />
+        <HelpTOCNode Title="Colleague Constructor (String)" Url="html/84812c5e-d838-e137-830f-9b04ce439f32.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Colleague Fields" Url="html/067c92c6-2e86-38cd-39c7-30ecd09fdbb8.htm" />
+      <HelpTOCNode Title="Colleague Methods" Url="html/366bb14d-a5a3-c883-8c5a-26222d5cd4fb.htm" />
+      <HelpTOCNode Id="775faba8-067e-4ea6-bacb-1d51f57c4bd5" Title="Colleague Properties" Url="html/6eed177b-0837-4bf2-837c-939347b8bf5f.htm">
+        <HelpTOCNode Title="birthDay Property " Url="html/9baae01c-4460-645c-d6a4-b53ec39418bb.htm" />
+        <HelpTOCNode Title="companyId Property " Url="html/016ddd18-29ad-f1c0-e09a-cd5ece379e6a.htm" />
+        <HelpTOCNode Title="companyName Property " Url="html/f1cd58ac-7281-bb0f-5273-0b1ae56b8333.htm" />
+        <HelpTOCNode Title="created Property " Url="html/05e1daf9-956b-079a-2e1a-02394395ef30.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/08e66428-95ae-13b0-770d-22fe76e06bf1.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/94a947a1-4e88-ac2a-e4fa-1df35a7a789f.htm" />
+        <HelpTOCNode Title="description Property " Url="html/e5d9f9da-b2e5-9d1f-9bd6-4e601c551fc1.htm" />
+        <HelpTOCNode Title="emails Property " Url="html/db6e19dd-836d-2f90-d92a-b9ceb4f87214.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/ec398e72-8a97-7d93-2012-2f7a4ca4a15e.htm" />
+        <HelpTOCNode Title="firstName Property " Url="html/19efe580-7926-4bc5-81d0-7e4bb8967529.htm" />
+        <HelpTOCNode Title="id Property " Url="html/2e80f848-77c2-7f5e-3694-eb1332b3430e.htm" />
+        <HelpTOCNode Title="isPrivate Property " Url="html/dcbe019d-8456-1764-e44e-4611066e9b99.htm" />
+        <HelpTOCNode Title="lastName Property " Url="html/a7e01cbb-e0ab-a0d3-82d6-82df92b4831a.htm" />
+        <HelpTOCNode Title="name Property " Url="html/70d2cbf4-1f2b-c013-c678-5e1e21fc032b.htm" />
+        <HelpTOCNode Title="role Property " Url="html/6ac9fac2-7a29-dc3d-a56f-dad5d6598aa2.htm" />
+        <HelpTOCNode Title="skypeId Property " Url="html/dd265374-002c-2010-cc69-dd2670f49267.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/894e52e9-154e-07a2-b967-717d67a2add6.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/d041d3dd-ed0c-14c2-5d38-200c1af9360d.htm" />
+        <HelpTOCNode Title="title Property " Url="html/0c27170b-3516-a28c-fef8-50e0f7a5bf92.htm" />
+        <HelpTOCNode Title="type Property " Url="html/b3768f96-45bb-068b-f42e-e4883ccbf14c.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/d37e012b-fd3b-411a-ea66-3d0aeeed5dc9.htm" />
+        <HelpTOCNode Title="userId Property " Url="html/8708c147-8317-4646-ed31-0a0c5f4aaec1.htm" />
+        <HelpTOCNode Title="version Property " Url="html/0f1e401e-5f1b-c76f-28f0-e5e70b1db84b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da605ecd-73e4-4f66-b28c-2778681eeecc" Title="Company Class" Url="html/bf89ee27-65c6-9ae2-26ad-29897d0ecaf1.htm">
+      <HelpTOCNode Title="Company Members" Url="html/17c12009-dba7-f059-db44-76b60b31819b.htm" />
+      <HelpTOCNode Title="Company Constructor " Url="html/f4036543-52ad-edc2-ef83-972d303292de.htm" />
+      <HelpTOCNode Title="Company Fields" Url="html/b74c83f1-e26e-5b7c-84a6-cce2bb75dc79.htm" />
+      <HelpTOCNode Title="Company Methods" Url="html/f35cd7c3-4857-5141-af64-9f7bb79c3a77.htm" />
+      <HelpTOCNode Id="2125015b-b976-4f89-96e4-1f748683a1a2" Title="Company Properties" Url="html/82ab063f-b3ae-e7a5-508e-7565c9dd988f.htm">
+        <HelpTOCNode Title="addresses Property " Url="html/a1c00989-64b0-5ff4-5f47-8be2f219b478.htm" />
+        <HelpTOCNode Title="associatedFiles Property " Url="html/1ff5d28d-7768-0085-9c8a-19e801309c78.htm" />
+        <HelpTOCNode Title="created Property " Url="html/aad1aef9-28d0-8248-f10a-b92bcf16e199.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/c7647108-516e-7e6b-6695-e735b306274f.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/e77d1e49-13e2-9246-3bc4-567a1e05dedb.htm" />
+        <HelpTOCNode Title="customFields Property " Url="html/7c492154-e1b2-28c8-4392-a5c5cde24c83.htm" />
+        <HelpTOCNode Title="deals Property " Url="html/434355f1-04ac-5497-2dbb-b035e5981141.htm" />
+        <HelpTOCNode Title="description Property " Url="html/6844e66d-1f6d-f260-a652-5005569f0386.htm" />
+        <HelpTOCNode Title="emails Property " Url="html/eda2aa5a-b6d3-0e54-57f3-e2a0de946773.htm" />
+        <HelpTOCNode Title="employees Property " Url="html/887c2671-002e-cc9e-7cd0-d2c070ae58ab.htm" />
+        <HelpTOCNode Title="established Property " Url="html/4875b3cd-b5bf-232a-9508-bdac2d97092e.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/b74b5fb1-f75d-161c-202d-47b39ff65c88.htm" />
+        <HelpTOCNode Title="id Property " Url="html/a14034ee-30b7-ae06-042a-41945258893c.htm" />
+        <HelpTOCNode Title="industry Property " Url="html/4feadd06-b90a-65d1-b82c-929c5eb2400d.htm" />
+        <HelpTOCNode Title="isPrivate Property " Url="html/3101fe3e-25a8-2a5f-9dbd-a5a55757b883.htm" />
+        <HelpTOCNode Title="name Property " Url="html/a1720f7c-a541-e97a-1ed2-c510f7aea4f2.htm" />
+        <HelpTOCNode Title="notes Property " Url="html/b3a7e82b-9f44-95b4-54ac-581d32ba7012.htm" />
+        <HelpTOCNode Title="phones Property " Url="html/c179c7ec-6409-71cd-8a1f-478ebb4dbe20.htm" />
+        <HelpTOCNode Title="socials Property " Url="html/6ec2b78e-8458-c009-3e64-d77dd2242804.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/7aed0c75-a4d4-b23a-c110-c4927ff56744.htm" />
+        <HelpTOCNode Title="tasks Property " Url="html/34d19b1b-eac3-5bc0-a403-08e17a51b72f.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/8b641c40-aa1d-fe28-6b8b-70b9b7b5e0bd.htm" />
+        <HelpTOCNode Title="type Property " Url="html/c65ddfb8-0473-ca51-3c63-48271839ff58.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/de3561a4-45ef-9de7-f6d1-e233c2b36aa2.htm" />
+        <HelpTOCNode Title="userId Property " Url="html/438b34bb-838a-61bc-cc97-6d144e82f590.htm" />
+        <HelpTOCNode Title="version Property " Url="html/222367b3-4bb4-59b9-16d4-2644bb0cfbf4.htm" />
+        <HelpTOCNode Title="websites Property " Url="html/b9c2db25-01b7-b4f0-a19c-157f0050ae76.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58add6fa-4708-479a-bba0-8b1b4d940c93" Title="ContactDetails Class" Url="html/96f10103-edb7-fcfd-9661-96eff7cc32d8.htm">
+      <HelpTOCNode Title="ContactDetails Members" Url="html/81dd5fdb-bee8-c288-5bfb-a1bdb0a414ea.htm" />
+      <HelpTOCNode Title="ContactDetails Constructor " Url="html/d824fabd-8f41-aef0-0bfe-deb10aaa3e74.htm" />
+      <HelpTOCNode Title="ContactDetails Fields" Url="html/cda7f92a-c641-5625-3350-73c00f535418.htm" />
+      <HelpTOCNode Title="ContactDetails Methods" Url="html/b85cbbbe-9b6d-6e98-a820-469b1ef5f99a.htm" />
+      <HelpTOCNode Id="05d9eb2a-366e-47a5-8c88-65b615e28c4b" Title="ContactDetails Properties" Url="html/8fdb0f1c-cc88-1901-4b81-4c7bca9ed87e.htm">
+        <HelpTOCNode Title="addresses Property " Url="html/66969b5e-8dfe-bff1-a1ab-f1aeb0a5d0d1.htm" />
+        <HelpTOCNode Title="associatedFiles Property " Url="html/0c33cb3b-3298-c8eb-0509-2b5699ac4c46.htm" />
+        <HelpTOCNode Title="created Property " Url="html/6c67e56b-a222-c83b-0f84-aa983b989f1d.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/33752f3d-639b-3a2c-d879-db051a85e3c0.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/119b5111-18bb-0db1-e7e5-d41e9448c855.htm" />
+        <HelpTOCNode Title="customFields Property " Url="html/c376feff-8ab0-f273-dd9c-2d2200d5f779.htm" />
+        <HelpTOCNode Title="deals Property " Url="html/01d269ee-f87a-7368-773e-2afe8a491334.htm" />
+        <HelpTOCNode Title="description Property " Url="html/aa277961-4f80-b4d9-fb03-afd75c06099e.htm" />
+        <HelpTOCNode Title="emails Property " Url="html/e87aa2ad-5354-a7a0-0446-5a1725710f41.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/fccae805-6b72-7b0c-7a9b-f8b81c1b2afe.htm" />
+        <HelpTOCNode Title="id Property " Url="html/4aafed36-616a-735d-832e-8661f27d9992.htm" />
+        <HelpTOCNode Title="isPrivate Property " Url="html/fe1343a4-d5f8-4a58-231c-92eb4da96c70.htm" />
+        <HelpTOCNode Title="name Property " Url="html/b4716ce2-cbdc-e3ed-bd95-d0f1c9dc0753.htm" />
+        <HelpTOCNode Title="notes Property " Url="html/8efcd880-f891-2f9f-12d7-f8d9293c46b1.htm" />
+        <HelpTOCNode Title="phones Property " Url="html/89a1e59e-f5c5-5e80-e8fd-d42685797d93.htm" />
+        <HelpTOCNode Title="skypeId Property " Url="html/f5352dc7-aa05-6bd6-8206-f24f72f9930e.htm" />
+        <HelpTOCNode Title="socials Property " Url="html/e9feadaf-90e7-38b5-9b11-dff2c538800c.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/a52be0ab-762d-4e3e-ad4d-a79da8575b02.htm" />
+        <HelpTOCNode Title="tasks Property " Url="html/9a436df4-3124-f529-d299-345187a783bb.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/66f86c9c-f992-7721-c51f-bf259b834759.htm" />
+        <HelpTOCNode Title="type Property " Url="html/a612435e-ab7e-692e-9e61-7fc1cfedce79.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/e3b84bfa-87e3-a3f3-1240-4e6006f60a48.htm" />
+        <HelpTOCNode Title="userId Property " Url="html/bf24013a-3777-6384-b5ca-e5efe5478a8c.htm" />
+        <HelpTOCNode Title="version Property " Url="html/8ea3d503-c1de-a8e4-8294-644fd47d5a15.htm" />
+        <HelpTOCNode Title="websites Property " Url="html/66e2ad2f-fb4b-1aa3-4b9c-c9f134d262fc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c93163a3-11e6-4380-9edf-b1200d57c101" Title="Contacts Class" Url="html/fd2428a8-d2f3-ec2b-dfb1-e1f258e742d2.htm">
+      <HelpTOCNode Title="Contacts Members" Url="html/ee272e95-4a64-1a9a-aff0-9e6f22750d2d.htm" />
+      <HelpTOCNode Title="Contacts Constructor " Url="html/8cf00811-bbaf-b432-6105-09fb8f82ec3c.htm" />
+      <HelpTOCNode Id="bde7793f-dc9e-4f7b-8413-a80e725f4383" Title="Contacts Fields" Url="html/0fc1c38a-5c65-c4f3-47ee-86ac737818d0.htm">
+        <HelpTOCNode Title="APIKey Field" Url="html/434abd21-337a-a5cf-855b-b08fdcd49258.htm" />
+        <HelpTOCNode Title="json Field" Url="html/39f8fb76-700e-7206-5953-54a7288a96f9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48da4807-3640-4bff-bf16-c5a2a1655b6f" Title="Contacts Methods" Url="html/879d9abe-c8c7-3996-41f9-af9f9bf8c563.htm">
+        <HelpTOCNode Title="CreateColleague Method " Url="html/54ae111c-492d-3653-36e2-bfbfd17aa7c5.htm" />
+        <HelpTOCNode Title="CreateCompany Method " Url="html/053bdd0e-3d0f-9439-32d1-ff58d78190c8.htm" />
+        <HelpTOCNode Title="CreateEmpolyee Method " Url="html/98a7cdd4-7e2c-0839-1ad0-23e05e933eda.htm" />
+        <HelpTOCNode Title="CreatePerson Method " Url="html/5180c8c7-64dd-4848-93c9-b90ff83d4d4a.htm" />
+        <HelpTOCNode Title="DeleteContactById Method " Url="html/91afc378-83f4-f6fa-cf62-f4415c268362.htm" />
+        <HelpTOCNode Title="GetColleaguesByPersonName Method " Url="html/d922e66b-4266-3773-e3b9-495d8f027a1d.htm" />
+        <HelpTOCNode Title="GetCompanyByName Method " Url="html/6063f009-e703-6304-6e93-c4d04ebbd06b.htm" />
+        <HelpTOCNode Title="GetContactById Method " Url="html/a33a7a15-3636-c929-1253-7703c66958f4.htm" />
+        <HelpTOCNode Title="GetContactByName Method " Url="html/ca0c6860-e2e2-a553-7245-fe1f294fac75.htm" />
+        <HelpTOCNode Title="GetContacts Method " Url="html/e35b4a52-f9d7-cf5c-729b-a9925560ab67.htm" />
+        <HelpTOCNode Title="GetEmployeesByCompanyName Method " Url="html/8715af34-e26f-aa91-d72c-90f13671d5df.htm" />
+        <HelpTOCNode Title="GetPersonByName Method " Url="html/8fa48ab8-8a4d-0102-4087-8e992fdc0759.htm" />
+        <HelpTOCNode Title="UpdateCompany Method " Url="html/e23f9219-1f6a-1fb2-93c3-569edfc0211d.htm" />
+        <HelpTOCNode Title="UpdatePerson Method " Url="html/651566b9-4921-d8df-87a4-5a8d8ae731fb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1ae867d-8c49-4c55-ba78-096b59d88ed7" Title="ContactsError Class" Url="html/a3942388-17c6-84d2-ed42-056df46b7ee6.htm">
+      <HelpTOCNode Title="ContactsError Members" Url="html/a3055aba-5655-bf87-f0df-23be72edede2.htm" />
+      <HelpTOCNode Title="ContactsError Constructor " Url="html/05ad7963-5ed0-e37f-9bc3-689912e730bc.htm" />
+      <HelpTOCNode Title="ContactsError Fields" Url="html/9b214db2-913a-30b9-223c-94ef1ba3b8e7.htm" />
+      <HelpTOCNode Title="ContactsError Methods" Url="html/6906b94f-4ef5-3deb-afec-4e8e8be3c264.htm" />
+      <HelpTOCNode Id="2b99554f-7eaa-41e8-866e-13741cb6afa7" Title="ContactsError Properties" Url="html/2ef3c57f-b80b-4456-fbf8-d182c82676bc.htm">
+        <HelpTOCNode Title="errorCode Property " Url="html/614a7e47-f672-221f-b373-d0ee0371b944.htm" />
+        <HelpTOCNode Title="message Property " Url="html/f355d8b1-0067-9fd6-f5a3-5fde9576966a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f9f28fa9-1a8a-446e-b22e-5c620cd7f685" Title="CustomField Class" Url="html/2199acf6-8f03-54fd-fc49-6e8e7fdb47e0.htm">
+      <HelpTOCNode Title="CustomField Members" Url="html/bc249563-0b69-b8de-e1a6-183597a9e7d3.htm" />
+      <HelpTOCNode Title="CustomField Constructor " Url="html/2dc534f9-9b09-3c60-fd58-413116b356e8.htm" />
+      <HelpTOCNode Title="CustomField Fields" Url="html/76961b9c-3837-edaf-4b39-87ba740881db.htm" />
+      <HelpTOCNode Title="CustomField Methods" Url="html/27ee2c6f-0230-d37f-ed8d-8ab456a87845.htm" />
+      <HelpTOCNode Id="c8033a48-82eb-4c21-a858-e5195477816c" Title="CustomField Properties" Url="html/7bf743cf-ce8e-88eb-a3ae-db8becd3d0d7.htm">
+        <HelpTOCNode Title="created Property " Url="html/1b99ef6e-b9b0-8476-86f6-a0a5c3958853.htm" />
+        <HelpTOCNode Title="id Property " Url="html/f2fc3e0c-072b-5d1b-7214-e8bed241d7c5.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/3cf46bb4-c5e2-8d02-9ec8-77570b1d8c65.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bc165839-52f3-4c59-aa25-c2d976d1649d" Title="Deal Class" Url="html/fc5503f4-bf14-30bc-047d-fa8c7a06510b.htm">
+      <HelpTOCNode Title="Deal Members" Url="html/a2494e23-c95c-ffe9-1737-44c43660e2fa.htm" />
+      <HelpTOCNode Title="Deal Constructor " Url="html/bc52799d-a06b-88e8-1286-9ac2135f39a3.htm" />
+      <HelpTOCNode Title="Deal Fields" Url="html/d699b1f6-1afc-805b-9645-dc8a22e6197d.htm" />
+      <HelpTOCNode Title="Deal Methods" Url="html/c244f92f-45f9-e2c0-59c6-a53b8f3fb128.htm" />
+      <HelpTOCNode Id="8255cb09-a33b-4aec-8b34-a20cb83c3fed" Title="Deal Properties" Url="html/f881dad5-d5c9-5b19-e459-a5d9c1916c89.htm">
+        <HelpTOCNode Title="assigneeId Property " Url="html/4a7cb2a7-e706-a032-87f2-94b8751a1583.htm" />
+        <HelpTOCNode Title="assigneeName Property " Url="html/96e7f7c3-bc08-e0d9-a628-2ebabfbe7044.htm" />
+        <HelpTOCNode Title="contacts Property " Url="html/7b4e81fd-a1a6-cbe7-d767-c44c7fbe079c.htm" />
+        <HelpTOCNode Title="created Property " Url="html/55f99237-5f45-3a3e-f2bd-a2c4ac21aa39.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/105839b2-c26b-dc54-a985-75ec84eccd5c.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/26b9e09e-aadd-a5ae-64e2-60308667d010.htm" />
+        <HelpTOCNode Title="dealSourceId Property " Url="html/e29dada1-51ed-db6a-bcb2-a1c27c694fd4.htm" />
+        <HelpTOCNode Title="dealSourceName Property " Url="html/45d16df0-4be7-29d6-c47d-2c06f9bd987c.htm" />
+        <HelpTOCNode Title="id Property " Url="html/f3a9b7cb-f2e5-e6a2-1634-7bbb50258838.htm" />
+        <HelpTOCNode Title="isHot Property " Url="html/422a242e-7ce1-1a06-ed33-82cd01f82877.htm" />
+        <HelpTOCNode Title="lossReasonId Property " Url="html/1feb7068-87f4-1998-95fa-e3985135196e.htm" />
+        <HelpTOCNode Title="name Property " Url="html/7c3f6c3a-7a51-626d-b69b-abc8945989d0.htm" />
+        <HelpTOCNode Title="stageDate Property " Url="html/922ca998-70d2-9dcd-b5d8-bd25fbff5cc6.htm" />
+        <HelpTOCNode Title="stageId Property " Url="html/768d9b7e-99be-e600-e671-fa0a96cea963.htm" />
+        <HelpTOCNode Title="stageName Property " Url="html/5504edb4-1678-edc0-1f1c-31da48a6127e.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/d9327c2e-ac3d-9aef-4e6b-ea408864c1dd.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/d4904f3f-fbe5-55a4-b57f-879aae917e8e.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/68deaf18-ea10-dda5-c4e8-67d1fa4d9acd.htm" />
+        <HelpTOCNode Title="value Property " Url="html/036fc9bb-ac85-a1d6-47ee-5ca203735e4d.htm" />
+        <HelpTOCNode Title="version Property " Url="html/34bb1ad7-5814-b491-2a3e-c66b4fded6a9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ca9dae5b-9c85-4692-b8a8-cbcf93a006a5" Title="Email Class" Url="html/d2737cc2-6461-b7ce-2b1b-e320957ff438.htm">
+      <HelpTOCNode Title="Email Members" Url="html/957bced2-bf8f-fdf7-1784-5603ad1a6fa7.htm" />
+      <HelpTOCNode Id="70ce2fce-d97c-4751-b96d-65f8bb5d7aee" Title="Email Constructor " Url="html/80c69296-5014-b98a-0202-c4e453333f69.htm">
+        <HelpTOCNode Title="Email Constructor " Url="html/6a12f146-2937-4fc3-175b-31ee48750388.htm" />
+        <HelpTOCNode Title="Email Constructor (String, String)" Url="html/468fd0e7-7ef1-975b-3a83-0685c138645c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Email Fields" Url="html/56f6227f-2935-121b-401f-68bb74d3920b.htm" />
+      <HelpTOCNode Title="Email Methods" Url="html/f45b3127-4c56-4fdd-ecc2-6735abe67718.htm" />
+      <HelpTOCNode Id="d966194c-960c-400e-85b7-593351dba696" Title="Email Properties" Url="html/0f813cfe-0696-0e9a-2a74-ae18ef391c64.htm">
+        <HelpTOCNode Title="address Property " Url="html/38620f08-a043-52b5-811a-95d7b2c681c0.htm" />
+        <HelpTOCNode Title="created Property " Url="html/f4e868c2-2cc2-bada-e264-b77672962d99.htm" />
+        <HelpTOCNode Title="id Property " Url="html/4e3477a3-703a-0e15-a8b2-355ab47a4721.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/d8c9c87c-8f45-cc1c-17fe-3c30d587e53e.htm" />
+        <HelpTOCNode Title="type Property " Url="html/2f4d90f2-d489-4993-bb98-94ad4b81102e.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/b2832289-9033-b797-ec59-e9378698ef6f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33b20655-6fbf-4826-ad57-f10f13b52d45" Title="Employee Class" Url="html/d0183f26-139d-33c6-ea49-b6201ed0d783.htm">
+      <HelpTOCNode Title="Employee Members" Url="html/f59d4e54-a0a7-12ea-1541-b822f29daa13.htm" />
+      <HelpTOCNode Title="Employee Constructor " Url="html/782b05a3-fcff-a06e-d086-5272c6a1f45e.htm" />
+      <HelpTOCNode Title="Employee Fields" Url="html/3685a799-0764-5fbf-3af8-f7060e4140b4.htm" />
+      <HelpTOCNode Title="Employee Methods" Url="html/72afc0fb-bfdd-04ef-cbfa-f5767d5d013f.htm" />
+      <HelpTOCNode Id="7a19eed9-00c1-4dd9-a2a0-3a8e24cad968" Title="Employee Properties" Url="html/d884860a-0f77-ff12-617f-2ac15f489ce5.htm">
+        <HelpTOCNode Title="birthDay Property " Url="html/4eba6983-2aed-9ff8-dab7-1faeddc3691a.htm" />
+        <HelpTOCNode Title="companyId Property " Url="html/7c57a7ea-fbb8-60b3-a8cf-44e4ef135626.htm" />
+        <HelpTOCNode Title="companyName Property " Url="html/e6be59f2-c854-4723-f5d3-f403940f8d68.htm" />
+        <HelpTOCNode Title="created Property " Url="html/7a284b39-996b-8551-83b8-fff24fb4cd42.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/cedbae4d-28d9-255f-c59c-168304157b05.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/7662555e-285b-b112-2813-8d2a2a4efe96.htm" />
+        <HelpTOCNode Title="description Property " Url="html/052ad700-b41d-7cce-fec7-f8757e8e8fca.htm" />
+        <HelpTOCNode Title="emails Property " Url="html/8b24051c-62da-23a7-6bcb-c8f9991c60ad.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/cd89ff35-6d0d-5895-92f5-3fa347252838.htm" />
+        <HelpTOCNode Title="firstName Property " Url="html/b12de3d1-4873-8604-d444-4e8a994d35c2.htm" />
+        <HelpTOCNode Title="id Property " Url="html/77727087-ec63-d0f4-ace9-c8e7bae7b98d.htm" />
+        <HelpTOCNode Title="isPrivate Property " Url="html/19d0ef53-11b5-4832-e379-305a357a6657.htm" />
+        <HelpTOCNode Title="lastName Property " Url="html/725b109a-c5d8-38fa-f360-d4d38356f2b5.htm" />
+        <HelpTOCNode Title="name Property " Url="html/6594d215-6d2d-8865-e504-c6bf7b111a11.htm" />
+        <HelpTOCNode Title="role Property " Url="html/bc59a3fd-7621-bfd1-335a-8714bb436ef2.htm" />
+        <HelpTOCNode Title="skypeId Property " Url="html/5a9794c1-5b7d-91c3-7bd0-223ccd7d4a22.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/d9c7c2c4-505c-a863-7325-fef2aca77a20.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/bb033168-3ee3-cd77-8f36-7841fb6aa793.htm" />
+        <HelpTOCNode Title="title Property " Url="html/809e1916-4c56-3837-d81e-096355f9b541.htm" />
+        <HelpTOCNode Title="type Property " Url="html/4390e4d5-075d-34d3-f96f-c95c3c333597.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/eb178f9e-e499-1b00-3dc6-a90a60c6fe20.htm" />
+        <HelpTOCNode Title="userId Property " Url="html/c8fce663-6328-5774-201d-7246a8cc729f.htm" />
+        <HelpTOCNode Title="version Property " Url="html/3968fb3b-3062-532a-7171-f674801bd731.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7349f24f-0fe1-489a-8543-377c3a961cd7" Title="Note Class" Url="html/382a4ec7-3311-cb70-5b8c-dbcf5fd83b19.htm">
+      <HelpTOCNode Title="Note Members" Url="html/2267a1f0-746c-e598-7996-792288d5acd3.htm" />
+      <HelpTOCNode Id="e7f221c6-08f2-440c-a30f-8a5ddd1144cf" Title="Note Constructor " Url="html/efc6403d-2892-fef0-73f9-d19acebe5b35.htm">
+        <HelpTOCNode Title="Note Constructor " Url="html/833dad94-fb12-8832-1e2e-9b3c7cf27693.htm" />
+        <HelpTOCNode Title="Note Constructor (String)" Url="html/13494e95-2c98-841c-6666-f07aae86ab25.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Note Fields" Url="html/6b825a98-f199-2044-6b57-0f85235556b4.htm" />
+      <HelpTOCNode Title="Note Methods" Url="html/e0009687-849e-c455-f738-08335b81e40e.htm" />
+      <HelpTOCNode Id="22645b67-d65a-4885-bb15-b82e79bfd734" Title="Note Properties" Url="html/d284a6d4-25b6-c32e-7caa-1f6786737616.htm">
+        <HelpTOCNode Title="content Property " Url="html/ce40bb31-6eba-09a3-1194-06635895b6af.htm" />
+        <HelpTOCNode Title="created Property " Url="html/23d35f65-8630-7714-c286-c6120f04d15e.htm" />
+        <HelpTOCNode Title="id Property " Url="html/179f5db6-fc4e-ae0c-e58d-3cd498a7049f.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/16c17af2-3523-0ea9-3d4e-081e484121e1.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/d2831228-c61f-51fb-c246-efa823e52cbe.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2207c350-6325-4717-94c6-d2b440a8e400" Title="Person Class" Url="html/e41b40c2-fb1f-55c2-df7a-38cc9d4c5517.htm">
+      <HelpTOCNode Title="Person Members" Url="html/75ab3648-5bbe-7f31-a43b-00a19a662fe5.htm" />
+      <HelpTOCNode Id="68314661-a1c7-4354-95f8-7ba0ecb968d9" Title="Person Constructor " Url="html/dd7d0651-788e-e49a-ef8b-d4880d456383.htm">
+        <HelpTOCNode Title="Person Constructor " Url="html/b20c1164-9e95-1e5c-a50e-b5f41b07ae13.htm" />
+        <HelpTOCNode Title="Person Constructor (String)" Url="html/2218d5f3-8e99-f004-269d-ee7bb5d95a3f.htm" />
+        <HelpTOCNode Title="Person Constructor (String, String)" Url="html/cf8d1b60-b2df-1e35-8f17-e5afe80ff501.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Person Fields" Url="html/f5a18509-f2f3-30ff-a2db-6ebc195156ae.htm" />
+      <HelpTOCNode Title="Person Methods" Url="html/569a8d43-4a6a-ae22-5f35-a5440b385e6e.htm" />
+      <HelpTOCNode Id="058b0a7a-aa9e-42a9-bd28-661e432c28f9" Title="Person Properties" Url="html/a3f389e5-2094-05ed-c5e6-85210d468bc5.htm">
+        <HelpTOCNode Title="addresses Property " Url="html/28404001-7449-7a63-6018-70c53ce2dd96.htm" />
+        <HelpTOCNode Title="associatedFiles Property " Url="html/0e64d5c8-c744-bb88-2aff-091fd0bba91f.htm" />
+        <HelpTOCNode Title="birthDay Property " Url="html/d412975d-af32-564b-03c0-d86f50b29208.htm" />
+        <HelpTOCNode Title="companyId Property " Url="html/44ff9e4f-7342-0108-afad-9da65e4a0316.htm" />
+        <HelpTOCNode Title="created Property " Url="html/6fd4c1df-5d1e-0923-b01b-3dd6893a322f.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/65725203-b171-d310-c62c-93bccc2838a1.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/bf724018-fe80-61af-6521-2ecc83f0e0b6.htm" />
+        <HelpTOCNode Title="customFields Property " Url="html/5f69529e-24b9-02ea-4aaa-fd853c691636.htm" />
+        <HelpTOCNode Title="deals Property " Url="html/33a3aee4-e224-f3f2-a268-1ad6b093ceea.htm" />
+        <HelpTOCNode Title="description Property " Url="html/f8ca772f-5670-f94e-7506-dbbf5a0d8bf6.htm" />
+        <HelpTOCNode Title="emails Property " Url="html/403db6fc-e2ff-0d5d-2ca2-f113b50be1c2.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/7d43650a-112f-ec0c-6978-cd2c90fc2b18.htm" />
+        <HelpTOCNode Title="firstName Property " Url="html/fb7aa6b6-0b77-bef2-a6a1-208221855794.htm" />
+        <HelpTOCNode Title="id Property " Url="html/a98a11a1-e3d9-aeae-5294-6fea54e85244.htm" />
+        <HelpTOCNode Title="isPrivate Property " Url="html/2d621f9a-fb61-9864-022d-fee277908974.htm" />
+        <HelpTOCNode Title="lastName Property " Url="html/64a7da21-8273-45f9-0962-c91f14486743.htm" />
+        <HelpTOCNode Title="name Property " Url="html/66cebb6e-c1cd-278c-88e3-c06bd895b9c2.htm" />
+        <HelpTOCNode Title="notes Property " Url="html/480a9ca5-23b4-37c4-b806-1bb561d458c7.htm" />
+        <HelpTOCNode Title="phones Property " Url="html/8ff812c9-0e86-a7eb-21b2-dc4e6bb9e31d.htm" />
+        <HelpTOCNode Title="role Property " Url="html/70a1eb0b-f6a3-5726-5ec3-2e2cd84dbdb5.htm" />
+        <HelpTOCNode Title="skypeId Property " Url="html/0c947f15-8060-cb50-6a80-7811295b4cba.htm" />
+        <HelpTOCNode Title="socials Property " Url="html/00306543-3854-5044-8dc7-a3ac93d0a8b8.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/158be2ad-8f84-b702-33e0-b1164cf07e7b.htm" />
+        <HelpTOCNode Title="tasks Property " Url="html/c2a25c54-8a2c-b0ad-f79e-3efde5690abc.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/c3fdcf02-51e1-fd43-b22a-387c9e560a8a.htm" />
+        <HelpTOCNode Title="title Property " Url="html/0fbed393-32e7-9046-5303-2eb9824ba4c0.htm" />
+        <HelpTOCNode Title="type Property " Url="html/a14f44fb-f168-7c21-1bf7-f245e93a94e9.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/5cd43ecc-ee8f-b32d-a0b5-97cffaff3e6c.htm" />
+        <HelpTOCNode Title="userId Property " Url="html/6900fb1a-28e6-251f-fa9f-477d5a63e350.htm" />
+        <HelpTOCNode Title="version Property " Url="html/a87faf94-61e4-2bee-6de4-f7117cc9a52a.htm" />
+        <HelpTOCNode Title="websites Property " Url="html/afa924c9-19fd-defd-9b10-abb3b178183a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1df8491-6ee4-4b03-b7f0-036e38bbe8b6" Title="Phone Class" Url="html/c4262616-51aa-c602-9413-c01dfa00b185.htm">
+      <HelpTOCNode Title="Phone Members" Url="html/e60d45b1-5d22-cd6c-9592-54b989f3a116.htm" />
+      <HelpTOCNode Id="2753f097-dc38-4c6e-9d1a-57f199cc4711" Title="Phone Constructor " Url="html/2bed8770-9028-e4bb-f76e-04b3c1cf2fa5.htm">
+        <HelpTOCNode Title="Phone Constructor " Url="html/feeffeff-4c5f-8de5-6522-b87b891fc763.htm" />
+        <HelpTOCNode Title="Phone Constructor (String, String)" Url="html/b0840242-3bd5-06de-441c-aee44d413fe7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Phone Fields" Url="html/b3739c5f-fe78-6765-24c7-bcf0eb2a84d0.htm" />
+      <HelpTOCNode Title="Phone Methods" Url="html/52c3c535-1721-9737-d468-e82a47f72fba.htm" />
+      <HelpTOCNode Id="50effb56-89b9-4ee2-8738-a51c9410a3ad" Title="Phone Properties" Url="html/1a465168-db98-ece1-35f1-cca1310efa88.htm">
+        <HelpTOCNode Title="created Property " Url="html/7a6e7b39-b6d3-15e0-a219-a5eccf7df9fa.htm" />
+        <HelpTOCNode Title="id Property " Url="html/28d48f44-f9c1-3a21-dd36-9019ec3beb64.htm" />
+        <HelpTOCNode Title="number Property " Url="html/464793e7-afe5-caad-d121-d3a5ddcb5a8a.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/fa093d2d-5fae-68ca-d3ee-6dcc62c60714.htm" />
+        <HelpTOCNode Title="type Property " Url="html/07a6cd92-f0c1-12ae-54e9-f32784ccb4cc.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/9b31d2cb-cb13-a27e-a6a5-a5cb1df9d90d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63a628ab-a24c-4b3e-a95f-023727b836c7" Title="ResponseError Class" Url="html/5f83ff1d-4f76-7f92-6130-cd69dc64e8ff.htm">
+      <HelpTOCNode Title="ResponseError Members" Url="html/09f17d35-0265-408e-a47e-1f3503c32bfe.htm" />
+      <HelpTOCNode Title="ResponseError Constructor " Url="html/24cef63d-b602-07a4-5feb-dd2518b60a0b.htm" />
+      <HelpTOCNode Title="ResponseError Methods" Url="html/41dcd829-8e59-2386-2461-47d09cafc7ed.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa58b448-e75d-4d06-be2e-ded85a98180b" Title="ResponseStatus Class" Url="html/d2b9b009-8804-816e-a9f6-eae5a3d8610b.htm">
+      <HelpTOCNode Title="ResponseStatus Members" Url="html/242c5da8-3b2b-dcb5-c302-e859dcfc0307.htm" />
+      <HelpTOCNode Title="ResponseStatus Constructor " Url="html/ad9be11c-d4db-df37-297c-08fd649f66b0.htm" />
+      <HelpTOCNode Title="ResponseStatus Fields" Url="html/414fb6d7-ca0b-c0ed-2222-4d94c2f7e262.htm" />
+      <HelpTOCNode Title="ResponseStatus Methods" Url="html/b093467a-19e9-54f5-6d97-520423d1962a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2b012642-fe21-4e2d-81e7-59b8957570fe" Title="Social Class" Url="html/d48c8332-0b75-627a-6895-e7879a6c48e4.htm">
+      <HelpTOCNode Title="Social Members" Url="html/0c2f9c45-450b-e104-6d18-97ef51921db1.htm" />
+      <HelpTOCNode Id="29bc5b6a-8d0c-4fce-b98b-041b2b7b5ccd" Title="Social Constructor " Url="html/a8848244-86e5-e96c-4e72-824430aa4d01.htm">
+        <HelpTOCNode Title="Social Constructor " Url="html/c27f06d0-386c-47d1-e8c1-7f1b291d7829.htm" />
+        <HelpTOCNode Title="Social Constructor (String, String, String)" Url="html/b9fcba37-d39d-1e1a-e68e-39a724a0dc89.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Social Fields" Url="html/a55781b8-a0cf-5a45-19ba-3683809f10f0.htm" />
+      <HelpTOCNode Title="Social Methods" Url="html/24dd6faf-cf0f-c172-e5c5-14d68b5b3a57.htm" />
+      <HelpTOCNode Id="6d4be224-aeba-4553-ade7-c14cd68dcaca" Title="Social Properties" Url="html/8142fa29-1313-066f-6a00-7847b95ad2a8.htm">
+        <HelpTOCNode Title="address Property " Url="html/2ccc9b99-4030-1673-9392-c379c45a4626.htm" />
+        <HelpTOCNode Title="created Property " Url="html/3ed54138-317b-a9b6-7ded-e04e862e8cf3.htm" />
+        <HelpTOCNode Title="id Property " Url="html/5146b41d-ce1f-ba95-37ba-eb7d4b8e4e1e.htm" />
+        <HelpTOCNode Title="network Property " Url="html/d7248ac2-a494-e656-ae97-f866812d3221.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/b2efa612-5ca2-fc0f-c003-367c1d2f78f1.htm" />
+        <HelpTOCNode Title="type Property " Url="html/2f14696d-064e-6067-5609-3a9932a4da95.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/fd33a584-4cfc-4375-aae1-a7ab57ca513d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="42eddd56-681e-4043-9f21-f27ebd0dde15" Title="Tags Class" Url="html/76c2cf55-2290-b7ba-660e-efb7b4323811.htm">
+      <HelpTOCNode Title="Tags Members" Url="html/2d911d2d-6eb7-f3f2-7b68-80d0c8393c1e.htm" />
+      <HelpTOCNode Id="fcbef36a-7ab3-4042-a55a-ea2027b3f9b3" Title="Tags Constructor " Url="html/0ccc4d33-b200-b776-f7ec-2b11d2ded15a.htm">
+        <HelpTOCNode Title="Tags Constructor " Url="html/ffd61392-1edb-34a2-8d6e-26b45dadb97a.htm" />
+        <HelpTOCNode Title="Tags Constructor (String)" Url="html/a11292c2-df9f-97a6-c5f1-96f55fa9230e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Tags Fields" Url="html/979cecce-9272-c4e0-ae4f-a0a462952972.htm" />
+      <HelpTOCNode Title="Tags Methods" Url="html/63653115-fda3-d5ab-0f8f-118baf471488.htm" />
+      <HelpTOCNode Id="1d556afc-11df-4b54-a05f-4ca9b249590d" Title="Tags Properties" Url="html/5a40e4e2-d1d6-c6c7-fa99-9609eec49f66.htm">
+        <HelpTOCNode Title="created Property " Url="html/0f622591-174f-ad82-a2db-4a415c12d5b0.htm" />
+        <HelpTOCNode Title="id Property " Url="html/b2c0453e-f832-4854-baa5-981b61783185.htm" />
+        <HelpTOCNode Title="name Property " Url="html/cc622aff-7fcc-8702-a559-a151090905b1.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/218c93f9-4009-cb8a-1999-4a5f1c9c8be4.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/49e8f1c8-0fd8-9a3b-85c6-86a8799732c1.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/8b5d0cfc-ad6e-4f2e-e625-a3940a127842.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d34bc458-2407-4473-a585-86cfc04bf2ea" Title="Task Class" Url="html/1b4f2955-9251-44fb-27b7-5e2a096580eb.htm">
+      <HelpTOCNode Title="Task Members" Url="html/b6e811a3-3b5b-3bc6-cede-c5255ba5c1ab.htm" />
+      <HelpTOCNode Title="Task Constructor " Url="html/5e2c99e1-8433-1a90-b50d-fc1242ad1cea.htm" />
+      <HelpTOCNode Title="Task Fields" Url="html/16a6565b-7b28-888b-ae3d-259f7d320538.htm" />
+      <HelpTOCNode Title="Task Methods" Url="html/f6a89618-fb98-2749-03e7-cab54bae7e3c.htm" />
+      <HelpTOCNode Id="3b1a925c-5a32-4614-9626-1df1ac00146d" Title="Task Properties" Url="html/63dacc71-1219-b509-9f35-822b941eb1f9.htm">
+        <HelpTOCNode Title="assigneeId Property " Url="html/1a63fe0e-ef4d-317b-6894-d7b28c129120.htm" />
+        <HelpTOCNode Title="assigneeName Property " Url="html/6f013fe4-043b-b228-24fe-bb0f4ce73660.htm" />
+        <HelpTOCNode Title="contacts Property " Url="html/a91bc2c0-e75e-f82b-d88f-209edea0e16e.htm" />
+        <HelpTOCNode Title="created Property " Url="html/f7410a6f-1fe4-a634-fedf-b2782435737d.htm" />
+        <HelpTOCNode Title="creatorId Property " Url="html/3df737f6-026b-3d15-4e39-b700140dd0bd.htm" />
+        <HelpTOCNode Title="creatorName Property " Url="html/2672a47a-b876-625f-a717-ef78f71dad24.htm" />
+        <HelpTOCNode Title="deals Property " Url="html/4f8d05ff-049c-d846-49c3-8a353d4caf84.htm" />
+        <HelpTOCNode Title="done Property " Url="html/c5067faf-b41a-dcb3-3009-29b325e2a47b.htm" />
+        <HelpTOCNode Title="endDate Property " Url="html/0d8b16b7-9e03-9ddb-bad5-9e07021d92b4.htm" />
+        <HelpTOCNode Title="favorite Property " Url="html/e5c232a9-98aa-98a9-05e1-8c4e78d009e1.htm" />
+        <HelpTOCNode Title="id Property " Url="html/18d85881-ef2c-e09c-506e-409017516f91.htm" />
+        <HelpTOCNode Title="name Property " Url="html/f9d8d2ef-96dc-703e-c773-987e6dbf314c.htm" />
+        <HelpTOCNode Title="startDate Property " Url="html/b068ef43-451b-1912-fd55-834975746f64.htm" />
+        <HelpTOCNode Title="tags Property " Url="html/e39584e9-04f0-be22-aaa6-60dac78030d8.htm" />
+        <HelpTOCNode Title="tenantId Property " Url="html/ee6893f5-bbf0-75d6-1ebd-7ea2fc98c3bd.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/33f206b1-f179-a183-654e-f6dab207acde.htm" />
+        <HelpTOCNode Title="version Property " Url="html/7f7b19ce-30c8-0594-81f6-c1b648454e37.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="929e8da4-a1cb-4c04-9833-97030b385472" Title="Website Class" Url="html/2b245091-760c-9fd8-0408-390903352a95.htm">
+      <HelpTOCNode Title="Website Members" Url="html/92247c2d-1f05-117e-9db5-71dda7c512c5.htm" />
+      <HelpTOCNode Id="6c0fb7a2-e3d5-4fa7-b973-cf4c97d8496d" Title="Website Constructor " Url="html/211e3a6a-a4f3-ad23-f476-71fc09ba057c.htm">
+        <HelpTOCNode Title="Website Constructor " Url="html/ce65ee8f-4d81-e1d0-1a38-5b54176b9bf9.htm" />
+        <HelpTOCNode Title="Website Constructor (String, String)" Url="html/24845646-d055-6c63-07b1-99c343da8c3d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Website Fields" Url="html/1c295682-8547-1e7a-9fa4-e583467c1d5d.htm" />
+      <HelpTOCNode Title="Website Methods" Url="html/88b2a004-d36e-3441-462c-abc852aea4a8.htm" />
+      <HelpTOCNode Id="c89fc814-f4cf-4cb3-a89b-df1664d263fe" Title="Website Properties" Url="html/2043c740-75ba-21d3-fdc8-2746129a9a8a.htm">
+        <HelpTOCNode Title="address Property " Url="html/8b600a09-87a4-be4b-77c9-81250fb6f1fe.htm" />
+        <HelpTOCNode Title="created Property " Url="html/7900a2fc-c75b-4f9e-130c-15ebd2e62667.htm" />
+        <HelpTOCNode Title="id Property " Url="html/5ea46dc2-26ce-9956-0655-86ce29701c8c.htm" />
+        <HelpTOCNode Title="parentId Property " Url="html/bf9f0c6c-f71d-6da8-9dc2-de6f26dd0e74.htm" />
+        <HelpTOCNode Title="type Property " Url="html/3019a749-ccb3-7b66-2d25-6fa5f440ab6a.htm" />
+        <HelpTOCNode Title="updated Property " Url="html/17a884aa-464e-a2b3-44f4-6f86b5fed683.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

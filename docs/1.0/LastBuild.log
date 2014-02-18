@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.8.0" projectFile="D:\Users\SQL\Documents\BanckleCRM.shfbproj" started="2/18/2014 12:12:25 PM">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;D:\Program Files (x86)\Sandcastle\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.dll
+    Found assembly &#39;E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.dll&#39;
+Source: E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.XML
+
+Copying XML comments files
+    E:\banckle\marketplace apps\BCRM\Class Lib\Banckle\Banckle\bin\Release\Banckle.XML -&gt; D:\Users\SQL\Documents\Help\Working\Banckle.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0070
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[D:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 1 namespaces, 24 types, and 297 members
+  XslTransform (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:05.9353
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    0 local and base class EII elements removed
+    Last step completed in 00:00:00.0470
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[D:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:02.1361
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0250
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[D:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;D:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.5530
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.2550
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Users\SQL\Documents\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0590
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[D:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.4.0)
+  Copyright c 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [N:Banckle] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;building&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;street&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;city&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;zip&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;state&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Address.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;country&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.building] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.city] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.country] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.state] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.street] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Address.zip] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AssociatedFile.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AssociatedFile.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AssociatedFile.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Auth] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Banckle.Auth.APIKey] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Auth.authenticate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Auth.authenticate] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [F:Banckle.Auth.json] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.AuthDetails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.cnonce] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.Continue] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.nc] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.nonce] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.oauth_token] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.oauth_verifier] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.Password] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.provider] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.qop] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.RememberMe] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.response] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.State] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.uri] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthDetails.UserName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.AuthResponse] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthResponse.referrerUrl] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthResponse.responseStatus] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.AuthResponse.sessionId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Colleague] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Colleague.#ctor(System.String)] Missing &lt;param name=&quot;personName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.birthDay] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.companyId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.companyName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.emails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.firstName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.isPrivate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.lastName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.role] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.skypeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.title] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.userId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Colleague.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Company.#ctor(System.String)] Missing &lt;param name=&quot;companyId&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.addresses] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.associatedFiles] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.customFields] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.deals] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.emails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.employees] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.established] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.industry] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.isPrivate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.notes] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.phones] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.socials] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.tasks] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.userId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Company.websites] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.ContactDetails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.addresses] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.associatedFiles] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.customFields] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.deals] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.emails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.isPrivate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.notes] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.phones] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.skypeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.socials] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.tasks] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.userId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactDetails.websites] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Banckle.Contacts.APIKey] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.CreateColleague(Banckle.Colleague)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.CreateColleague(Banckle.Colleague)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.CreateColleague(Banckle.Colleague)] Missing &lt;param name=&quot;colleague&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.CreateEmpolyee(Banckle.Employee)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [F:Banckle.Contacts.json] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.UpdateCompany(Banckle.Company)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.UpdatePerson(Banckle.Person)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.UpdatePerson(Banckle.Person)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Contacts.UpdatePerson(Banckle.Person)] Missing &lt;param name=&quot;person&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.ContactsError] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactsError.errorCode] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.ContactsError.message] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.CustomField.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.CustomField.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.CustomField.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.assigneeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.assigneeName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.contacts] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.dealSourceId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.dealSourceName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.isHot] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.lossReasonId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.stageDate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.stageId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.stageName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.value] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Deal.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Email] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Email.#ctor(System.String,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Email.#ctor(System.String,System.String)] Missing &lt;param name=&quot;address&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.address] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Email.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Employee] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;companyName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;firstName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;lastName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;title&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;role&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;description&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;skypeId&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Employee.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;birthDay&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.birthDay] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.companyId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.companyName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.emails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.firstName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.isPrivate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.lastName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.role] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.skypeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.title] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.userId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Employee.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Note.#ctor(System.String)] Missing &lt;param name=&quot;content&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Note.content] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Note.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Note.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Note.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Note.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Person] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Person.#ctor(System.String)] Missing &lt;param name=&quot;personId&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Person.#ctor(System.String,System.String)] Missing &lt;param name=&quot;firstName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Person.#ctor(System.String,System.String)] Missing &lt;param name=&quot;lastName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.addresses] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.associatedFiles] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.birthDay] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.companyId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.customFields] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.deals] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.description] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.emails] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.firstName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.isPrivate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.lastName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.notes] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.phones] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.role] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.skypeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.socials] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.tasks] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.title] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.userId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Person.websites] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Phone.#ctor(System.String,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Phone.#ctor(System.String,System.String)] Missing &lt;param name=&quot;number&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.number] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Phone.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.ResponseError] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.ResponseStatus] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Social.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Social.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;network&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Social.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;address&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.address] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.network] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Social.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Banckle.Tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Tags.#ctor(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.tenantId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Tags.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.assigneeId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.assigneeName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.contacts] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.creatorId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.creatorName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.deals] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.done] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.endDate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.favorite] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.startDate] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.tags] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.updated] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Task.version] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Website.#ctor(System.String,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Banckle.Website.#ctor(System.String,System.String)] Missing &lt;param name=&quot;address&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.address] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.created] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.parentId] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Banckle.Website.updated] Missing &lt;summary&gt; documentation
+  Info: Processed 420 topic(s)
+  Info: 294 warning(s)
+  Diagnostic: CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  Diagnostic: CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+    Last step completed in 00:00:31.4488
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:00.0540
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[D:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.8.0
+Copyright c 2006-2013, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in D:\Users\SQL\Documents\Help\Working\Output\Website
+Processed 420 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\Users\SQL\Documents\Help\Working\WebKI.xml
+Saving website table of contents to D:\Users\SQL\Documents\Help\Working\WebTOC.xml
+    Last step completed in 00:00:04.0652
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\adm.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\adm_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\adm_dev.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\adm_dev_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\alert_caution.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\alert_note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\alert_security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\big_adm.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\big_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\big_dev.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\big_kw.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\box.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\Caution.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\CFW.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\collall.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\collapse.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\collapse_all.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\copycode.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\copycodeHighlight.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\dev.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\dev_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\dropdown.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\dropdownHover.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\drpdown.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\drpdown_orange.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\drpdown_orange_up.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\drpup.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\exp.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\expall.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\expand_all.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\filter1a.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\filter1c.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\footer.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\gradient.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\greencheck.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\greychck.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\header_prev_next.jpg
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\header_sql_tutorial_blank.jpg
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\header_sql_tutorial_logo.GIF
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_adm.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_adm_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_adm_dev.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_adm_dev_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_dev.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\kw_dev_arch.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\LastChild.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\load.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\load_hover.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\note.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pencil.GIF
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privenum.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\privstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protenum.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protoperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\protstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubclass.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubdelegate.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubenum.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubenumeration.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubevent.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubextension.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubfield.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubinterface.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubmethod.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\puboperator.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubproperty.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\pubstructure.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\requirements1a.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\requirements1c.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\save.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\save_hover.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\security.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\seealso1a.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\seealso1c.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\slMobile.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\static.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\icons\xna.gif
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\CheckboxMenu.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\CommonUtilities.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\Dropdown.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\EventUtilities.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\script_feedBack.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\script_manifold.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\scripts\SplitScreen.js
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\styles\Presentation.css
+D:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\styles\Whidbey\Presentation.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\CloseSearch.png -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\CloseSearch.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\CollapseAll.bmp -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\CollapseAll.bmp
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Collapsed.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Collapsed.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\ExpandAll.bmp -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\ExpandAll.bmp
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Expanded.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Expanded.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\favicon.ico -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\favicon.ico
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\FillNode.aspx -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\FillNode.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\FillNode.php -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\FillNode.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Index.aspx -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Index.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Index.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Index.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\index.html -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\index.html
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\index.php -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\index.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Item.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Item.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\LoadIndexKeywords.aspx -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\LoadIndexKeywords.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\LoadIndexKeywords.php -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\LoadIndexKeywords.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Search.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Search.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.aspx -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\SearchHelp.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.inc.php -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\SearchHelp.inc.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.php -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\SearchHelp.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Splitter.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Splitter.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SyncTOC.gif -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\SyncTOC.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\TOC.css -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\TOC.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\TOC.js -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\TOC.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Web.Config -&gt; D:\Users\SQL\Documents\Help\Working\Output\Website\.\Web.Config
+    Last step completed in 00:00:01.6771
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:01.8911
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 576 files for the website content
+    Last step completed in 00:00:05.8333
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.2130
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 02/18/2014 12:13 PM.  Total time: 00:00:54.4301
+
+</buildStep>
+</shfbBuild>
