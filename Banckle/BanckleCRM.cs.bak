@@ -18,12 +18,11 @@ namespace Banckle
 		/// Banckle CRM API URL
 		/// </summary>
 		/// 
-        protected String banckleCRMAPIUrl = "https://crm.banckle.com/api/v1.0/";
+		protected String banckleCRMAPIUrl = "https://crm-api.banckle.com/v1.0/";
 		/// <summary>
 		/// BanckleCRM API Key
 		/// </summary>
 		protected string banckleCRMAPIKey = "";
-        protected string banckleCRMTOken = "";
 
 		/// <summary>
 		/// BanckleCRM constructor
@@ -40,18 +39,16 @@ namespace Banckle
 		/// <param name="URL">API call URL</param>
 		/// <param name="APIKey">API Key for the URL</param>
 		/// <returns>Returns a String containing the JSON response</returns>
-		public string banckleRequest(string URL, string APIKey, string Token)
+		public string banckleRequest(string URL, string APIKey)
 		{
 			string responseFromServer;
 			this.banckleCRMAPIKey = APIKey;
-            this.banckleCRMTOken = Token;
 			try
 			{
 				// Create a request for the URL. 		
-				WebRequest request = WebRequest.Create(URL);
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
+				WebRequest request = WebRequest.Create(URL+"&api_key="+ HttpUtility.UrlEncode(APIKey));
 				// If required by the server, set the credentials.
-                request.Headers.Add("banckle-client-api-key", APIKey);
-                request.Headers.Add("banckle-authorize-token", Token);
 				request.Credentials = CredentialCache.DefaultCredentials;
 				// Get the response.
 				HttpWebResponse response = (HttpWebResponse)request.GetResponse();
@@ -73,24 +70,10 @@ namespace Banckle
 				//Mapview
 
 			}
-            catch (System.Net.WebException webex)
-            {
-                string message = webex.Message;
-                if (webex.Response != null)
-                {
-                    if (webex.Response.ContentLength != 0)
-                    {
-                        using (Stream stream = webex.Response.GetResponseStream())
-                        {
-                            using (StreamReader reader = new StreamReader(stream))
-                            {
-                                message = reader.ReadToEnd();
-                            }
-                        }
-                    }
-                }
-                throw new Exception(message);
-            }
+			catch (Exception ex)
+			{
+				return ex.Message + "\r" + ex.StackTrace;
+			}
 			return responseFromServer;
 
 		}
@@ -102,29 +85,24 @@ namespace Banckle
 		/// <param name="APIKey">API Key for the URL</param>
 		/// <param name="DATA">A JSON formated string</param>
 		/// <returns>Returns a String containing the JSON response</returns>
-		public string bancklePOSTRequest(string URL, string APIKey, string Token, string DATA)
+		public string bancklePOSTRequest(string URL, string APIKey, string DATA)
 		{
 
 			string responseFromServer;
 			this.banckleCRMAPIKey = APIKey;
-            this.banckleCRMTOken = Token;
 			try
 			{
 				// Create a request for the URL. 		
-				WebRequest request = WebRequest.Create(URL);
-                request.Headers.Add("banckle-client-api-key", APIKey);
-                if (Token != "")
-                {
-                    request.Headers.Add("banckle-authorize-token", Token);
-                }
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
+				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
+
 				request.Method = "POST";
-                request.ContentType = "application/json";
-                
+				request.ContentType = "application/json";
 				// Create a byte array of the data we want to send  
 				byte[] byteData = UTF8Encoding.UTF8.GetBytes(DATA);  
-				request.ContentLength = byteData.Length;
-                Stream requestWriter = request.GetRequestStream();
-				requestWriter.Write(byteData,0,byteData.Length);
+				request.ContentLength = DATA.Length;
+				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream());
+				requestWriter.Write(DATA);
 				requestWriter.Close();
 
 
@@ -150,24 +128,10 @@ namespace Banckle
 				//Mapview
 
 			}
-            catch (System.Net.WebException webex)
-            {
-                string message = webex.Message;
-                if (webex.Response != null)
-                {
-                    if (webex.Response.ContentLength != 0)
-                    {
-                        using (Stream stream = webex.Response.GetResponseStream())
-                        {
-                            using (StreamReader reader = new StreamReader(stream))
-                            {
-                                message = reader.ReadToEnd();
-                            }
-                        }
-                    }
-                }
-                throw new Exception(message);
-            }
+			catch (Exception ex)
+			{
+				return ex.Message + "\r" + ex.StackTrace;
+			}
 			return responseFromServer;
 		}
 
@@ -178,31 +142,25 @@ namespace Banckle
 		/// <param name="APIKey">API Key for the URL</param>
 		/// <param name="DATA">A JSON formated string</param>
 		/// <returns>Returns a String containing the JSON response</returns>
-		public string bancklePUTRequest(string URL, string APIKey, string Token, string DATA)
+		public string bancklePUTRequest(string URL, string APIKey, string DATA)
 		{
 
 			string responseFromServer;
 			this.banckleCRMAPIKey = APIKey;
-            this.banckleCRMTOken = Token;
 			try
 			{
 				// Create a request for the URL. 		
-				WebRequest request = WebRequest.Create(URL);
-
-                request.Headers.Add("banckle-client-api-key", APIKey);
-                if (Token != "")
-                {
-                    request.Headers.Add("banckle-authorize-token", Token);
-                }
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
+				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
 
 				request.Method = "PUT";
 				request.ContentType = "application/json";
 				// Create a byte array of the data we want to send  
-                byte[] byteData = UTF8Encoding.UTF8.GetBytes(DATA);
-                request.ContentLength = byteData.Length;
-                Stream requestWriter = request.GetRequestStream();
-                requestWriter.Write(byteData, 0, byteData.Length);
-                requestWriter.Close();
+				byte[] byteData = UTF8Encoding.UTF8.GetBytes(DATA);  
+				request.ContentLength = DATA.Length;
+				StreamWriter requestWriter = new StreamWriter(request.GetRequestStream());
+				requestWriter.Write(DATA);
+				requestWriter.Close();
 
 
 				// If required by the server, set the credentials.
@@ -227,24 +185,10 @@ namespace Banckle
 				//Mapview
 
 			}
-            catch (System.Net.WebException webex)
-            {
-                string message = webex.Message;
-                if (webex.Response != null)
-                {
-                    if (webex.Response.ContentLength != 0)
-                    {
-                        using (Stream stream = webex.Response.GetResponseStream())
-                        {
-                            using (StreamReader reader = new StreamReader(stream))
-                            {
-                                message = reader.ReadToEnd();
-                            }
-                        }
-                    }
-                }
-                throw new Exception(message);
-            }
+			catch (Exception ex)
+			{
+				return ex.Message + "\r" + ex.StackTrace;
+			}
 			return responseFromServer;
 		}
 
@@ -254,22 +198,16 @@ namespace Banckle
 		/// <param name="URL">API call URL</param>
 		/// <param name="APIKey">API Key for the URL</param>
 		/// <returns>Returns a String containing the JSON response</returns>
-		public string banckleDELETERequest(string URL, string APIKey, string Token)
+		public string banckleDELETERequest(string URL, string APIKey)
 		{
 
 			string responseFromServer;
 			this.banckleCRMAPIKey = APIKey;
-            this.banckleCRMTOken = Token;
 			try
 			{
 				// Create a request for the URL. 		
-				WebRequest request = WebRequest.Create(URL);
-
-                request.Headers.Add("banckle-client-api-key", APIKey);
-                if (Token != "")
-                {
-                    request.Headers.Add("banckle-authorize-token", Token);
-                }
+				// https://crm-api.banckle.com/v1.0/contacts?api_key=
+				WebRequest request = WebRequest.Create(URL + "&api_key=" + HttpUtility.UrlEncode(APIKey));
 
 				request.Method = "DELETE";
 				request.ContentType = "application/json";
@@ -295,24 +233,10 @@ namespace Banckle
 				//Mapview
 
 			}
-            catch (System.Net.WebException webex)
-            {
-                string message = webex.Message;
-                if (webex.Response != null)
-                {
-                    if (webex.Response.ContentLength != 0)
-                    {
-                        using (Stream stream = webex.Response.GetResponseStream())
-                        {
-                            using (StreamReader reader = new StreamReader(stream))
-                            {
-                                message = reader.ReadToEnd();
-                            }
-                        }
-                    }
-                }
-                throw new Exception(message);
-            }
+			catch (Exception ex)
+			{
+				return ex.Message + "\r" + ex.StackTrace;
+			}
 			return responseFromServer;
 		}
 

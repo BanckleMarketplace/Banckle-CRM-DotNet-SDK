@@ -6,8 +6,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Script.Serialization;
-using System.Text;
-
 
 namespace Banckle
 {
@@ -30,20 +28,22 @@ namespace Banckle
 		/// 
 		/// </summary>
 		/// <returns></returns>
-		public string getToken(string username, string password)
+		public bool authenticate()
 		{
-            string payload = "{\"userEmail\":\""+username+"\",\"password\":\""+password+"\"}";
-
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-            json = bancklePOSTRequest("https://apps.banckle.com/api/v2/auth/token" + "?format=json", APIKey, "", payload);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/auth" + "?format=json", APIKey);
 
-			TokenResponse authResponse = serializer.Deserialize<TokenResponse>(json);
+			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
+			AuthResponse authResponse = serializer.Deserialize<AuthResponse>(json);
 
-			if (!String.IsNullOrEmpty(authResponse.status))
-				return authResponse.authorization.token;
+			if (!String.IsNullOrEmpty(authResponse.sessionId))
+				return true;
 			else
-				return authResponse.status;
+				return false;
+
+			//return json;
+
 		}
 	}
 }

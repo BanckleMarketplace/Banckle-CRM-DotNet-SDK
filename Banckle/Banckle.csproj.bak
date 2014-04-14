@@ -69,7 +69,6 @@
     <Compile Include="Social.cs" />
     <Compile Include="Tags.cs" />
     <Compile Include="Task.cs" />
-    <Compile Include="TokenResponse.cs" />
     <Compile Include="Website.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

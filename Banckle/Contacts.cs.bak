@@ -29,7 +29,6 @@ namespace Banckle
 		/// 
 		/// </summary>
 		public string APIKey;
-        public string Token;
 		/// <summary>
 		/// 
 		/// </summary>
@@ -43,7 +42,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-            json = banckleRequest(banckleCRMAPIUrl + "contacts" + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts"+ "?format=json",APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			List<ContactDetails> contactDetails = serializer.Deserialize<List<ContactDetails>>(json);
@@ -60,7 +59,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/"+ id + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/"+ id + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -76,7 +75,9 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleDELETERequest(banckleCRMAPIUrl + "contacts/" + id + "?format=json", APIKey, Token);
+			//json = banckleDELETERequest("https://crm-api.banckle.com/v1.0/contacts/" + id + "?format=json", APIKey);
+			json = banckleDELETERequest("https://crm-api.banckle.com/v1.0/contacts/" + id + "?format=json", APIKey);
+									//   https://crm-api.banckle.com/v1.0/contacts/aadab26ea6654ba49c999872?api_key=
 			return json;
 		}
 
@@ -89,7 +90,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/byname/" + name + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/byname/" + name + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -111,7 +112,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = "{\"name\":\"" + name + "\",\"description\":\"" + description + "\", \"industry\":\"" + industry + "\",\"established\":\"" + established + "\"}";
 
-			json = bancklePOSTRequest(banckleCRMAPIUrl + "contacts/company" + "?format=json", APIKey, Token, DATA);
+			json = bancklePOSTRequest("https://crm-api.banckle.com/v1.0/contacts/company" + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -129,7 +130,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/company/" + name + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/company/" + name + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			Company companyDetails = serializer.Deserialize<Company>(json);
@@ -145,7 +146,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/company/" + name + "/employees" + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/company/" + name + "/employees" + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			List<Employee> employees = serializer.Deserialize<List<Employee>>(json);
@@ -163,7 +164,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = serializer.Serialize(employee);
 
-			json = bancklePOSTRequest(banckleCRMAPIUrl + "contacts/company/" + employee.companyName + "/employees" + "?format=json", APIKey, Token, DATA);
+			json = bancklePOSTRequest("https://crm-api.banckle.com/v1.0/contacts/company/" + employee.companyName + "/employees" + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -182,7 +183,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = serializer.Serialize(company);
 
-			json = bancklePUTRequest(banckleCRMAPIUrl + "contacts/company/" + company.id + "?format=json", APIKey, Token, DATA);
+			json = bancklePUTRequest("https://crm-api.banckle.com/v1.0/contacts/company/" + company.id + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -201,7 +202,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = serializer.Serialize(person);
 
-			json = bancklePOSTRequest(banckleCRMAPIUrl + "contacts/person/" + "?format=json", APIKey, Token, DATA);
+			json = bancklePOSTRequest("https://crm-api.banckle.com/v1.0/contacts/person/" + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -220,7 +221,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = serializer.Serialize(person);
 
-			json = bancklePUTRequest(banckleCRMAPIUrl + "contacts/person/" + person.id + "?format=json", APIKey, Token, DATA);
+			json = bancklePUTRequest("https://crm-api.banckle.com/v1.0/contacts/person/" + person.id + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
@@ -237,7 +238,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/person/" + name + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/person/" + name + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			Person person = serializer.Deserialize<Person>(json);
@@ -253,7 +254,7 @@ namespace Banckle
 		{
 			JavaScriptSerializer serializer = new JavaScriptSerializer();
 			// Deserialize
-			json = banckleRequest(banckleCRMAPIUrl + "contacts/person/" + name + "/colleagues" + "?format=json", APIKey, Token);
+			json = banckleRequest("https://crm-api.banckle.com/v1.0/contacts/person/" + name + "/colleagues" + "?format=json", APIKey);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			List<Colleague> colleague = serializer.Deserialize<List<Colleague>>(json);
@@ -271,7 +272,7 @@ namespace Banckle
 			// Deserialize
 			string DATA = serializer.Serialize(colleague);
 
-			json = bancklePOSTRequest(banckleCRMAPIUrl + "contacts/person/" + colleague.name + "/colleagues" + "?format=json", APIKey, Token, DATA);
+			json = bancklePOSTRequest("https://crm-api.banckle.com/v1.0/contacts/person/" + colleague.name + "/colleagues" + "?format=json", APIKey, DATA);
 
 			//var deserializedResult = serializer.Deserialize<List<Person>>(serializedResult);
 			//ContactDetails contactDetails = serializer.Deserialize<ContactDetails>(json);
